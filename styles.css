@@ -1,3 +1,11 @@
+*
+{
+display: -webkit-box;  /* Safari 6, 7 */
+display: -ms-flexbox;  /* IE 10 */
+display: -webkit-flex; /* Chrome, Safari 8+ */
+display: flex;
+}
+
 body
 {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
