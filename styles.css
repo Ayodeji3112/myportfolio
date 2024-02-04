@@ -169,7 +169,7 @@ img:hover {
   line-height: 1.5em;
 }
 
-/*At the point*/
+
 
 
 .aside_content_aboutme {
@@ -209,7 +209,7 @@ img:hover {
 {
   position: absolute;
   left:-5px;
-  bottom: -1200px;
+  bottom: -1000px;
   padding: 130px;
   max-width: 130px;
   margin: 0 auto;
@@ -263,7 +263,7 @@ padding-right: 20px;
   left: 400px;
   margin-top: 50px;
 width: 900px;
-height: 450px;
+height: 400px;
 border: solid 5px;
 border-color: rgb(84, 84, 255);
 }
@@ -272,10 +272,10 @@ border-color: rgb(84, 84, 255);
 .coming_soon1
 {
   position: absolute;
- top: 1100px;
- right: 612px;
+ top: 1060px;
+ right: 642px;
   height: 200px;
-  width: 470px;
+  width: 440px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
 }
@@ -283,10 +283,10 @@ border-color: rgb(84, 84, 255);
 .coming_soon2
 {
   position: absolute;
- top: 1100px;
- right: 115px;
+ top: 1060px;
+ right: 190px;
   height: 200px;
-  width: 470px;
+  width: 440px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
 }
@@ -295,10 +295,10 @@ border-color: rgb(84, 84, 255);
 .coming_soon3
 {
   position: absolute;
- top: 1320px;
- right: 612px;
+ top: 1280px;
+ right: 642px;
   height: 200px;
-  width: 470px;
+  width: 440px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
 }
@@ -307,10 +307,10 @@ border-color: rgb(84, 84, 255);
 .coming_soon4
 {
   position: absolute;
- top: 1320px;
- right: 115px;
+ top: 1280px;
+ right: 190px;
   height: 200px;
-  width: 470px;
+  width: 440px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
 }
@@ -321,8 +321,8 @@ border-color: rgb(84, 84, 255);
 .tel 
 {
   position:relative;
-  top: 1400px;
-  right: 550px;
+  top: 1200px;
+  right: 490px;
   font-size: 25px;
   display: inline;
 }
@@ -346,8 +346,8 @@ border-color: rgb(84, 84, 255);
 .email
 {
   position:relative;
-  top: 1400px;
-  right: 450px;
+  top: 1200px;
+  right: 420px;
   font-size: 25px;
 }
 
@@ -370,8 +370,8 @@ border-color: rgb(84, 84, 255);
 .github
 {
   position:relative;
-  top: 1400px;
-  right: 320px;
+  top: 1200px;
+  right: 350px;
   font-size: 25px;
 }
 
@@ -379,6 +379,22 @@ border-color: rgb(84, 84, 255);
 .github a {
   color:#333;
 }
+
+
+.twitter
+{
+  position:relative;
+  top: 1200px;
+  right: 250px;
+  font-size: 25px;
+}
+
+
+.twitter a {
+  color:#333;
+}
+
+
 
 
 .image_css {
