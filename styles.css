@@ -1,0 +1,392 @@
+body
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+/* Common styles for hover effect */
+#about_me:hover, #work:hover, #contact_me:hover {
+  color: rgb(164, 164, 247);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.navbar {
+  display: flex;
+  background-color: rgb(41, 41, 41);
+  color: rgb(164, 164, 247);
+  padding: 20px;
+  text-align: right;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+
+
+ .navbar h1, .navbar ul {
+  margin: 0;
+}
+
+.header h1 {
+  text-align: left;
+  font-size: 30px;
+  padding: 0px;
+}
+
+
+
+
+
+.navbar li {
+  margin-left: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(164, 164, 247);
+  font-size: 20px;
+}
+
+
+
+.navbar ul  {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: inline;
+    display: flex;
+    margin-left: auto;
+
+}
+  
+  .navbar a:hover {
+    color: white;
+  }
+
+
+
+.subtitle {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.subtitle img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  max-width: 1500px;
+  height: 300px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+
+
+
+h2 {
+  color: #333;
+  font-size: 50px;
+  padding: 40px 80px 80px 80px;
+}
+
+
+
+p {
+  color: #666;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+main {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 50vh;
+  flex: 3;
+  padding: 20px;
+}
+
+
+.About_Me {
+  position: relative;
+  margin-left: 10%; /* Adjust margin for responsiveness */
+  padding: 20px;
+  text-align: left;
+  padding: 50px 20px 20px 20px;
+}
+
+
+
+img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.About_Me p {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+/*At the point*/
+
+
+.aside_content_aboutme {
+
+  background: #ffffff;
+  position: relative;
+  left: -750px;
+  padding: 130px;
+  max-width: 100px;
+  margin: 0 auto;
+  border-right: solid 5px;
+  border-color: black;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+#aside_content_work
+{
+
+  position: relative;
+  right: 1115px;
+  top: 300px;
+  padding: 130px;
+  max-width: 100px;
+  margin: 0 auto;
+  border-right: solid 5px;
+  border-color: black;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 750px;
+}
+
+
+
+#aside_content_contact
+{
+  position: absolute;
+  left:-5px;
+  bottom: -1200px;
+  padding: 130px;
+  max-width: 130px;
+  margin: 0 auto;
+  border-right: solid 5px;
+  border-color: black;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 30px;
+
+}
+
+
+
+#about_me 
+{
+position: relative;
+bottom: 150px;
+}
+
+
+
+#work{
+
+  position: relative;
+    bottom: 0px;
+}
+
+
+
+#contact_me{
+
+  position: relative;
+    bottom: 120px;
+}
+
+.about_me_content
+{
+margin-right: auto;
+position: absolute;
+bottom: 350px;
+left: 400px;
+font-size: 18px;
+text-wrap:balance;
+padding-right: 20px;
+}
+
+.image_css
+{
+  position:absolute;
+  bottom: 10px;
+  left: 400px;
+  margin-top: 50px;
+width: 900px;
+height: 450px;
+border: solid 5px;
+border-color: rgb(84, 84, 255);
+}
+
+
+.coming_soon1
+{
+  position: absolute;
+ top: 1100px;
+ right: 612px;
+  height: 250px;
+  width: 470px;
+  border: solid 5px;
+border-color: rgb(84, 84, 255);
+}
+
+.coming_soon2
+{
+  position: absolute;
+ top: 1100px;
+ right: 115px;
+  height: 250px;
+  width: 470px;
+  border: solid 5px;
+border-color: rgb(84, 84, 255);
+}
+
+
+.coming_soon3
+{
+  position: absolute;
+ top: 1365px;
+ right: 612px;
+  height: 250px;
+  width: 470px;
+  border: solid 5px;
+border-color: rgb(84, 84, 255);
+}
+
+
+.coming_soon4
+{
+  position: absolute;
+ top: 1365px;
+ right: 115px;
+  height: 250px;
+  width: 470px;
+  border: solid 5px;
+border-color: rgb(84, 84, 255);
+}
+
+
+
+
+.tel 
+{
+  position:relative;
+  top: 1300px;
+  right: 550px;
+  font-size: 25px;
+  display: inline;
+}
+
+
+.tel::after
+{
+  content: "📱";
+ position: relative;
+ bottom: 30px;
+ left: 150px;
+}
+
+
+
+.tel a {
+  color:#333;
+}
+
+
+.email
+{
+  position:relative;
+  top: 1300px;
+  right: 450px;
+  font-size: 25px;
+}
+
+
+.email a {
+  color:#333;
+}
+
+
+.email::after
+{
+  content: "📧";
+ position: relative;
+ bottom: 30px;
+ left:290px;
+}
+
+
+
+.github
+{
+  position:relative;
+  top: 1300px;
+  right: 320px;
+  font-size: 25px;
+}
+
+
+.github a {
+  color:#333;
+}
+
+
+.image_css {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: solid 5px;
+  border-color: rgb(84, 84, 255);
+}
+
+
+footer{
+  text-align: center;
+  font-size: 12px;
+}
