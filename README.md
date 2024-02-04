@@ -47,5 +47,10 @@ Link to deployed: https://ayodeji3112.github.io/myportfolio/
 
 
 ![alt text](<Screenshot 2024-02-04 at 16.01.17.png>) 
+
+
 ![alt text](<Screenshot 2024-02-04 at 16.01.10.png>) 
+
+
+
 ![alt text](<Screenshot 2024-02-04 at 16.01.01.png>)
