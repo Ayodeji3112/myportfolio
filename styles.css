@@ -270,7 +270,7 @@ border-color: rgb(84, 84, 255);
   position: absolute;
  top: 1100px;
  right: 612px;
-  height: 250px;
+  height: 200px;
   width: 470px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
@@ -281,7 +281,7 @@ border-color: rgb(84, 84, 255);
   position: absolute;
  top: 1100px;
  right: 115px;
-  height: 250px;
+  height: 200px;
   width: 470px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
@@ -291,9 +291,9 @@ border-color: rgb(84, 84, 255);
 .coming_soon3
 {
   position: absolute;
- top: 1365px;
+ top: 1320px;
  right: 612px;
-  height: 250px;
+  height: 200px;
   width: 470px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
@@ -303,9 +303,9 @@ border-color: rgb(84, 84, 255);
 .coming_soon4
 {
   position: absolute;
- top: 1365px;
+ top: 1320px;
  right: 115px;
-  height: 250px;
+  height: 200px;
   width: 470px;
   border: solid 5px;
 border-color: rgb(84, 84, 255);
@@ -329,7 +329,7 @@ border-color: rgb(84, 84, 255);
   content: "📱";
  position: relative;
  bottom: 30px;
- left: 150px;
+ left: -25px;
 }
 
 
@@ -358,7 +358,7 @@ border-color: rgb(84, 84, 255);
   content: "📧";
  position: relative;
  bottom: 30px;
- left:290px;
+ left:-30px;
 }
 
 
