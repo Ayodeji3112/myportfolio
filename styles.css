@@ -1,10 +1,5 @@
-*
-{
-display: -webkit-box;  /* Safari 6, 7 */
-display: -ms-flexbox;  /* IE 10 */
-display: -webkit-flex; /* Chrome, Safari 8+ */
-display: flex;
-}
+
+
 
 body
 {
@@ -12,6 +7,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin: 0;
 padding: 0;
 scroll-behavior: smooth;
+
 }
 
 /* Common styles for hover effect */
@@ -253,7 +249,7 @@ bottom: 150px;
 {
 margin-right: auto;
 position: absolute;
-bottom: 350px;
+bottom: 450px;
 left: 400px;
 font-size: 18px;
 text-wrap:balance;
@@ -325,7 +321,7 @@ border-color: rgb(84, 84, 255);
 .tel 
 {
   position:relative;
-  top: 1300px;
+  top: 1400px;
   right: 550px;
   font-size: 25px;
   display: inline;
@@ -350,7 +346,7 @@ border-color: rgb(84, 84, 255);
 .email
 {
   position:relative;
-  top: 1300px;
+  top: 1400px;
   right: 450px;
   font-size: 25px;
 }
@@ -374,7 +370,7 @@ border-color: rgb(84, 84, 255);
 .github
 {
   position:relative;
-  top: 1300px;
+  top: 1400px;
   right: 320px;
   font-size: 25px;
 }
@@ -391,10 +387,4 @@ border-color: rgb(84, 84, 255);
   height: auto;
   border: solid 5px;
   border-color: rgb(84, 84, 255);
-}
-
-
-footer{
-  text-align: center;
-  font-size: 12px;
 }
